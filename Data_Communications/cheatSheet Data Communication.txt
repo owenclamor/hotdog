@@ -1,0 +1,117 @@
+<<<<<<< HEAD
+Pointers:
+
+POINT 1:
+-There are 48 Bits of number/letter in the Physical Address
+
+POINT 2:
+-End to End Layers(Transport Layer)
+
+-Point to point(Network Layer)
+
+POINT 3:
+-Packets are independent to each other
+
+-Transport Layer is connection-oriented
+
+-Transport Layer must ensure that packets are in good condition when they
+have to go their destination
+
+1. C
+2. D
+3. D
+4. D
+5. Data Flow
+6. Simplex, half-duplex, full-duplex
+7. A
+8. B & C
+9. B
+10. C
+11. B & D
+12. A
+13. D
+14. Performance, Reliability, and Security
+15. B
+16. C
+17. Links
+18. A
+19. Network
+20. B
+21. A
+22. A
+23. C (space and time)
+24. C
+25. A
+26. D
+27. C
+28. D
+29. B
+30. A
+31. B
+32. D
+33. A
+34. A
+35. A & B
+36. Taps
+37. Drop Line
+38. Tap
+39. B
+=======
+Pointers:
+
+POINT 1:
+-There are 48 Bits of number/letter in the Physical Address
+
+POINT 2:
+-End to End Layers(Transport Layer)
+
+-Point to point(Network Layer)
+
+POINT 3:
+-Packets are independent to each other
+
+-Transport Layer is connection-oriented
+
+-Transport Layer must ensure that packets are in good condition when they
+have to go their destination
+
+1. C
+2. D
+3. D
+4. D
+5. Data Flow
+6. Simplex, half-duplex, full-duplex
+7. A
+8. B & C
+9. B
+10. C
+11. B & D
+12. A
+13. D
+14. Performance, Reliability, and Security
+15. B
+16. C
+17. Links
+18. A
+19. Network
+20. B
+21. A
+22. A
+23. C (space and time)
+24. C
+25. A
+26. D
+27. C
+28. D
+29. B
+30. A
+31. B
+32. D
+33. A
+34. A
+35. A & B
+36. Taps
+37. Drop Line
+38. Tap
+39. B
+>>>>>>> 4bec2a79d417f4bc7d3f224c5ceca3e88196beb6

@@ -1,0 +1,326 @@
+1. Java classes that dynamically process request and response
+
+A- Apache Server
+B- JSP
+C- Servlet  
+D- MySQL Server
+
+2. An application program that is stored on a remove server and delivered
+over the Internet through a browser interface.
+
+A- Web Server
+B- Internet Application
+C- Database Application
+D- Web Application 
+
+3. Consists of application logic that prepares data for delivery to the client tier and processes requests from the client tier for delivery to back-end business logic.
+
+A- Business Tier 
+B- Client Tier
+C- Presentation Tier 
+D- Integration Tier 
+
+4. Consists of data used by business logic, data can be persisted application data stored in a database management system.
+
+A. Client Tier
+B- Presentation Tier 
+C- Business Tier
+D- Integration Tier 
+
+5. N-tier is also called as 
+
+A. Multitier Architecture 
+B- Multilayered Architecture 
+C- Multiple Architecture
+D- Multipurpose Architecture
+
+6. consists of logic that performs the main functions of the application
+
+A. Client Tier 
+B- Integration Tier
+C- Presentation Tier
+D- Business Tier 
+
+7. Consists of appltion logic accessed directly by an end user through a user interface 
+
+A. Presentation Tier
+B- Client Tier 
+C- Business Tier 
+D- Integration Tier
+
+8. text-based documents that executes as Servlets but allow more natural approach to creating static content
+
+A. JSP Text
+B. Servlet Pages 
+C. JSP Pages
+D. JSP Container
+
+9. technology that enables the web server to call an external program and pass HTTP request information to the external program to process the request.
+
+A. Servlet
+B. HTTP
+C. Common Gateway Interface 
+D. JDBC
+
+10. It is the data communication protocol used to establish comuunication between client and server.
+
+A. HTTP 
+B. HTTPS
+C. GET
+D. POST
+
+11. The following are disadvantages of CGI Technology except:
+
+I.  It uses platform dependent language e.g C, C++
+II. If the number of clients increases, it takes more time for sending the responses
+III. For each request, it creates a thread
+IV. Does Manage the memory such as garbage collection, memory leak ,and etc
+
+A- II & IV
+B- IV Only
+C- II & III 
+D- III & IV 
+
+12. Servlet is better than CGI because
+
+I. Uses thread for each process 
+II. Portability
+III. Robust
+IV. Uses C++ which is faster
+V. Better Performance
+
+A- I, II, III, V 
+B- I, II, IV
+C- II, IV
+D- II, III, V
+E- All of the above
+
+13. It requests the data from a specified resource
+
+A- POST
+B- GET  
+C- PUT
+D- PATCH
+
+14. It submits the processed data to a specified resource
+
+A- POST 
+B- GET
+C- PUT
+D- PATCH
+
+15. GET request is more efficient and used more than POST
+
+A- True 
+B- False
+
+16. GET request can't be bookmarked 
+
+A- True 
+B- False 
+
+17. GET request is secured because data is not exposed in URL Bar
+
+A- True  
+B- False 
+
+18. POST request can be bookmarked
+
+A- True 
+B- False 
+
+19. In case of post request, large amount of data can be sent because data is sent in body.
+
+A- True 
+B- False
+
+20. POST request is idempotent, it means second request will be ignored until response of first request is delivered
+
+A- True
+B- False 
+
+21. is a collection of related web pages that may contain text, images, audio and video.
+
+A- Internet
+B- Web
+C- Websites 
+D- Server
+
+22. the basic type of website that is easy to create. You don't need the knowledge of web programming and database design
+
+A- Client-side website
+B- Static Website 
+C- Dynamic Website
+D- Server website
+
+23. type of website is a collection of different web pages whose content changes dynamically. 
+
+A- Server-side Website
+B- Client-side Website
+C- Dynamic Website 
+D- Static Website
+
+24. In a static website, content is same every time the page is loaded.
+
+A- True 
+B- False
+
+25. In a dynamic website, content is generated quickly and changes regularly
+
+A- True 
+B- False 
+
+26. Static website uses PHP, SERVLET, JSP ,and ASP.Net for developing a website
+
+A- True
+B- False 
+
+27. Static website may sends different responses for each request
+
+A- True
+B- False 
+
+28. Dynamic websites sends exactly the same response for evvery request
+
+A- True
+B- False 
+
+29. Is a software application or set of related programs that are used to create and manage digital content.
+
+A- CMS (Content Managing System) 
+B- ECM (Enterprise Content Management)
+C- CMS (Content Management System) 
+D- WCM (Web Content Management)
+
+30. Content Management System (CMS) is used by Static Websites
+
+A- True 
+B- False 
+
+31. Flexibility is the main advantage of a Dynamic Website
+
+A- True 
+B- False
+
+32. HTTP is a application-level protocol for collaborative, distributed, hypermedia information systems. 
+
+A- True 
+B- False
+
+33. package contains many interfaces and classes that are used by the servlet or web container
+
+A- javax.web
+B- javax.servlet 
+C- javax.http 
+D- javax.web.servlet
+
+34. package contains interfaces and classes that are responsible for http request only
+
+A- javax.servlet
+B- javax.servlet.http 
+C- javax.web
+D- javax.http
+
+35. method that initializes the servlet. It is the life cycle method of servlet and invoked by the web container only once.
+
+A- public void init(ServletConfig config) 
+B- public void initialize(ServletRequest request, Servletresponse response)
+C- public void initializeServlet(ServletConfig config)
+D- public Servlet init()
+
+36. public void destroy() can be involed many times and indicates that the servlet is being destroyed
+
+A- True
+B- False 
+
+37. method that provides response for the incoming request. It is invoked at each request by the web container
+
+A- public void service(ServletRequest request)
+B- public void getResponse(ServletRequest request, ServletResponse response) 
+C- public void service(ServletRequest request, ServletResponse response)
+D- public void getResponse(ServletResponse reqst, ServletResponse resp) (A)
+
+38. method that returns the object of ServletConfig
+
+A- public void ServletConfig getServletConfig() 
+B- public Servlet getServletConfig()
+C- public ServletConfig getServletConfig()
+D- public ServletConfig getServConfig()
+
+39. method that returns information about servlet such as writer, copyright, version etc.
+
+A- public void printServletInfo()
+B- public String getServletInfo()
+C- public void getInfo()
+D- public String getServletSignature() 
+
+40. This class implements Servlet, ServletConfig, and Serialiazable Interfaces. It provides the implementation of all the methods of these interfaces except the service method.
+
+A- GenericServlet Class
+B- Servlet Class
+C- JavaServlet Class
+D- HTTPServlet Class
+
+41. Does the class on question number 40., is protocol-independent
+
+A- True
+B- False
+
+42. How does the class on question number 40., be created?
+
+A- Inheriting
+B- Overriding
+C- Calling by Method Name
+D- Importing the package
+
+43. This method returns the object of ServletContext
+
+A- public ServletContext getServletContext()
+B- public Servlet getServletContext()
+C- public ServletContext getServletContent()
+D- public Servlet getServletContent()
+
+44. This method returns all the parameters defined in the web.xml file
+
+A- public Enumerate getInitializedParameterNames()
+B- public Enumaration getInitParameterNames()
+C- public Enumerate getParameterNames()
+D- public Enumeration getParameterNames()
+
+45. This method returns the name of the servlet object
+
+A- public Servlet getServletName()
+B- public Servlet getObjectName()
+C- public String getServletName()
+D- public Servlet getObjectName()
+
+46. This method returns the parameter value for the given parameter name
+
+A- public Enumeration getInitParameterName(String name)
+B- public String getParameter(String name)
+C- public String getInitParameterName(String name)
+D- public String getName(String name)
+
+47. This method writes the given message in the servlet log file
+
+A- public void logInfo(String msg)
+B- public void log(String msg, Throwable t)
+C- public void logInfo(String msg, Throwable t)
+D- public void log(String msg)
+
+48. This method writes the explanatory message in the servlet log file and a stack trace.
+
+
+A- public void logInfo(String msg)
+B- public void log(String msg, Throwable t)
+C- public void logInfo(String msg, Throwable t)
+D- public void log(String msg)
+
+49. This class  extends the GenericServlet class and implements Serializable interface. It provides http specific methods such as doGet, doPost, doHead, doTrace etc.
+
+A- Http Class
+B- HttpServlet Class
+C- InternetServlet Class
+D- WebServlet Class
+
+

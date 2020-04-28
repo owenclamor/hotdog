@@ -1,0 +1,178 @@
+1st Quiz Reviewer
+
+<!-- 	START OF FIRST SLIDE	-->
+
+1. The process we follow to build, deliver and evolve the software product
+
+2. Major Tasks of the Definiton Phase
+
+Answer: 
+
+- Definition Phase
+- Development Phase
+- Maintenance Phase
+
+3. Definition Phase (What Phase)
+
+- Informaton Engineering, Software Project Planning, requirement analysis
+
+4. Development Phase (HOW Phase)
+
+- Software design, coding, testing
+
+5. Maintenance Phase (Change Phase)
+
+-error correction, adaptation
+
+6. Agile Methodology
+
+- Alternative to Traditional Project Management
+- Helps team to respond to unpredictability using sprints
+- Takes 2-3 weeks per Sprint
+
+7. Scrum
+
+- Lightweight Process framework for agile development
+- It is a subset of Agile
+
+8. Product Owner, Scrum Development Team, Scrum Master
+
+9. Product Owner is responsible for the Return On Investment (ROI), Final arbiter of requirements questions. Focused more on the what than on the how
+
+10. Scrum Dev Team attempts to build a "potentially shippable product increment" every sprint, collaborates, self-organizing
+
+11. Scrum Master has no management autority, doesn't have a project manager role and a facilitator
+
+12. Product Backlog, Sprint Backlog
+
+13. Product Backlog, Everything that is Plan to be implemented on the software program 
+
+14. Sprint Backlog, The task on hand or what we have agreed to do during the current sprint
+
+15. Meetings: 
+
+	-Sprint Planning Meeting
+	- Daily Scrum
+	-Sprint Review Meeting
+	-Sprint Retrospective
+	- Backlog Refinement Meeting
+
+16. Sprint Planning Meeting is where the Team and Product Owner negotiates which items is to be committed in the Sprint
+
+17. Daily Scrum is 15 minutes stand-up meeting 
+
+18. Sprint Review Meeting- Team demonstrates the sprint to the PO and any one else who are interested (stakeholders)
+
+-provides feedback about the product and its emerging requirements 
+
+19. Sprint Retrospective- team inspect and adapt their process, provides feedback about the process the team uses to build the product
+
+
+<!--	Start Second Slide	  -->
+
+20. Software Architecture - the structure or structures of the system
+			  - the fundamental organization of the system
+
+21. Architectural Style   - the overall way to structure the system
+			  - the use of architectural frameworks and patterns
+
+22. Benefits of Software Architecture
+
+	* To make software stable so that it can cope with errors
+		- maintenance, components have to be exchangeable
+		- system easy to administer and use
+	* To modify software while keeping stability and other properties
+	* To Design software in a way that it can evolve in the future
+	* To make software at as little cost as possible
+	* To guide programmers in implementation
+
+23. Web services
+	- repository of source code
+	- way to easily connect the source code of multiple developers
+	- comman examples: GitHub ,BitBucket
+
+24. Source Control
+	- the one that connects the source code or the developers to the web service
+	- common example: Git
+
+25. GUI Version of Git:
+	- common example: SourceTree
+
+<!--	3rd Slide	-->
+
+26. Broken Window Theory
+	- "One broken window, left unprepared for any
+	substantial length of time, instills in the
+	inhabitants of the building a sense of abandonment
+	— a sense that the powers don't care about the building."
+
+27. Goal in Programming
+	- To spot and fix defects early in the progress
+	- To help maintain a level of consistency in design and implementation
+	- Better-shared understanding of the code base as team members learn 		from each other
+	- A different perspective
+
+28. Type of Code Review (Formal Code Review):
+	- involves software developers meeting together and reviewing
+	relevant code line by line many times taking the opportunity
+	to analyze printed copies of the materials.
+
+29. Type of Code Review (Peer Code Review):
+	- Can be done over the shoulder where the reviewer looks over the 		author's shoulder as the other goes through the code
+	- Or can be done via email or version control system and online 	conference.
+
+30. Tips for Developer during code review
+
+	- The primary reviewer is the author (YOU)
+	- You are not your code
+	- Understand and accept that you will make mistakes
+	- No matter how much “karate” you know, someone else will always know 		more
+
+	- Don’t rewrite the code without consultation
+	- The only constant in the world is change
+	- Please note that review meetings are NOT problem solving meetings
+
+	-Critique code instead of people. 
+	 be kind to the coder, not to the code
+	- Treat people who know less than you with respect and patience
+	- The only true authority stems from knowledge, not from position
+
+	- Ask questions rather than make statements
+	- Remember to praise
+	- Make sure you have good coding standards to reference
+
+31. WHAT? 
+
+   Categories
+
+	- General Guidelines
+	- Control Structure
+	- Error Handling
+	- Performance
+	- Maintainability and Reusability
+
+32. General Guidelines
+	
+	- Is the code following guidelines and naming conventions?
+	- Are all compiler warnings fixed?
+	- Are there leftover code for testing/development?
+
+33. Control Structure
+
+	- Check for infinite loops
+
+34. Error Handling 
+
+	- Does the code check for null reference exception?
+	- Does the code check for array index out of bounds exception?
+
+35. Performance
+
+	- Will the same data be reloaded often?
+	- Will reusing objects improve performance?
+	- Was this optimization really needed?
+
+36. Maintainability and Reusability
+
+	- Is the code using "magic numbers"?
+	- Does the code comply with DRY (Don’t Repeat Yourself) principle?
