@@ -2,7 +2,7 @@
 
 Disclaimer: Intelligence gathered here are from the enemy and not from us so f*ck off
 
-Currently Decryptd:
+Currently Decrypted:
   1. Software engineering 2
   2. Enterprise java 1
   3. Data Communications
