@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Physical Address- Unique to every computer/devices
+=======
+Physical Address- Unique to every computer/devices
+>>>>>>> 4bec2a79d417f4bc7d3f224c5ceca3e88196beb6
 MAC Address

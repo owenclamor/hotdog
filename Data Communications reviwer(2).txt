@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. The need to establish rules and conventions to facilitate communication
 among devices
 
@@ -18,3 +19,25 @@ devices need to follow to be able to communicate effectively.
 
 A. Rules
 B. Hello
+=======
+1. The need to establish rules and conventions to facilitate communication
+among devices
+
+A. Rules or Concord
+B. Agreement and Settlement
+C. Directives and Control
+D- Standard or Protocols
+
+2. Is a system in which the components and protocols conform to standards independent of a particular supplier
+
+A. structured-system
+B. open-systems
+C. standardized-systems
+D. controlled-systems
+
+3. Defines the rules that both the sender and receiver and all intermediate
+devices need to follow to be able to communicate effectively.
+
+A. Rules
+B. 
+>>>>>>> 4bec2a79d417f4bc7d3f224c5ceca3e88196beb6
