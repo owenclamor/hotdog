@@ -109,7 +109,7 @@ Answer:
 27. Goal in Programming
 	- To spot and fix defects early in the progress
 	- To help maintain a level of consistency in design and implementation
-	- Better-shared understanding of the code base as team members learn 		from each other
+	- Better-shared understanding of the code base as team members learn from each other
 	- A different perspective
 
 28. Type of Code Review (Formal Code Review):
@@ -118,15 +118,15 @@ Answer:
 	to analyze printed copies of the materials.
 
 29. Type of Code Review (Peer Code Review):
-	- Can be done over the shoulder where the reviewer looks over the 		author's shoulder as the other goes through the code
-	- Or can be done via email or version control system and online 	conference.
+	- Can be done over the shoulder where the reviewer looks over the author's shoulder as the other goes through the code
+	- Or can be done via email or version control system and online conference.
 
 30. Tips for Developer during code review
 
 	- The primary reviewer is the author (YOU)
 	- You are not your code
 	- Understand and accept that you will make mistakes
-	- No matter how much “karate” you know, someone else will always know 		more
+	- No matter how much “karate” you know, someone else will always know more
 
 	- Don’t rewrite the code without consultation
 	- The only constant in the world is change
