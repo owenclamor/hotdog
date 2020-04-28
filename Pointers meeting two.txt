@@ -1,0 +1,2 @@
+Physical Address- Unique to every computer/devices
+MAC Address
